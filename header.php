@@ -1,5 +1,14 @@
 
 <!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+  
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -42,3 +51,11 @@
           <a class="nav-link active" aria-current="page" href="instructor-cards.php">Instructor Cards (Related Records)</a>
         </li>
         </div>
+    
+    
+    
+  </head>
+  <body>
+   
+  </body>
+</html>
