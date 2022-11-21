@@ -42,9 +42,6 @@
           <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
         </li>
 
-        </div>
-    
-    
     
   </head>
 
