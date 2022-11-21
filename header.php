@@ -27,28 +27,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="instructors.php">Instructors</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Welcome</a>
         </li>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="courses.php">Courses</a>
+          <a class="nav-link active" aria-current="page" href="order.php">Order</a>
         </li>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="sections.php">Sections</a>
+          <a class="nav-link active" aria-current="page" href="confirm.php">Order Confirmation</a>
         </li>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="experiences.php">Years of Experience</a>
+          <a class="nav-link active" aria-current="page" href="yourorders.php">Past Orders</a>
         </li>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="instructor-cards.php">Instructor Cards (Related Records)</a>
+          <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
         </li>
+
         </div>
     
     
