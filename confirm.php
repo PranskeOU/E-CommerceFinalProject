@@ -1,4 +1,6 @@
+<?php require_once("header.php"); ?>
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,6 +8,6 @@
     <title>Bootstrap demo</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+   
   </body>
 </html>
