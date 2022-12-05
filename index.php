@@ -76,7 +76,7 @@
 
    <?php
     require_once("connection.php");
-    $sql = "SELECT * from customer";
+    $sql = "SELECT * from Customer";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
