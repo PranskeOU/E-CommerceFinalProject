@@ -42,7 +42,13 @@
           <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
         </li>
         </nav>
-    
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
   </head>
     </html>
 
