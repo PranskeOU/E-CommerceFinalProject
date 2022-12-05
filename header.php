@@ -41,7 +41,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
         </li>
-
+        </nav>
     
   </head>
     </html>
