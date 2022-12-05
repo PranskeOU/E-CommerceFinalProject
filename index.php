@@ -57,13 +57,6 @@
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
             <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
-            <a href="#">Link 6</a>
-            <a href="#">Link 7</a>
-            <a href="#">Link 8</a>
-            <a href="#">Link 9</a>
-            <a href="#">Link 10</a>
-
         </div>
 
         <div class="main">
@@ -77,7 +70,7 @@
         </div>
     </div>
 
-    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
+    <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
 
 
 
