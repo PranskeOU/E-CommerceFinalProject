@@ -4,9 +4,20 @@
 </head>
   <body>
    <?php
-    require_once("connection.php");
+    //require_once("connection.php");
+    $servername = "159.89.47.44";
+    $username = "pranskeo_finalProject";
+    $password = "j761B#OXRQyk";
+    $dbname = "pranskeo_finalProject";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
     $sql = "SELECT * from customer";
-$result = $conn->query($sql);
+    $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   // output data of each row
