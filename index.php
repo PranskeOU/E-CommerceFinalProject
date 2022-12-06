@@ -3,6 +3,11 @@
 <head> <?php require_once("header.php"); ?>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
         * {
             box-sizing: border-box;
         }
@@ -63,9 +68,9 @@
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Sweatpants</a>
         </div>
 
-        <div class="main">
+        <div class="Center">
             <h2>Lorum Ipsum</h2>
-            <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490" class="center">
+            <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490">
             </div>
 
         <div class="right">
