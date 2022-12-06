@@ -14,7 +14,7 @@
         }
 
             .menu a {
-                background-color: #e5e5e5;
+                background-color: dimgrey;
                 padding: 8px;
                 margin-top: 7px;
                 display: block;
