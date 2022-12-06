@@ -53,6 +53,10 @@ input[type=submit]:hover {
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+     <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
 
     <label for="country">Country</label>
     <select id="country" name="country">
