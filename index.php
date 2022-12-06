@@ -61,7 +61,7 @@
     </div>
     <div style="overflow:auto">
         <div class="menu">
-            <a id="blacksweatpants" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'" >Black Sweatpants</a>
+            <a id="blacksweatpants" onclick="document.getelementbyid('title').innerhtml = "black""  <!--document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'"--> >Black Sweatpants</a>
             <a id="graychino" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2' ">Gray Chino</a>
             <a id="lightgraysweatpants" onclick="document.getElementById('image').src='https://images.lululemon.com/is/image/lululemon/LM5942S_032798_1'">Light Gray Sweatpants</a>
             <a id="tansweatshirt" onclick="document.getElementById('image').src='https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg'">Tan Sweatshirt</a>
