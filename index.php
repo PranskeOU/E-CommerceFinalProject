@@ -47,14 +47,27 @@
 </head>
 <body style="font-family:Verdana;color:#aaaaaa;">
 
+<script>
+function changeimage() {
+document.getElementById('myimage').src = "compman.gif";
+}
+</script>
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>Man Clothes</h1>
     </div>
-
+<img id ="blacksweatpants" onclick="changeimage()" src=""C:\Users\Juan Escalante\Downloads\BlackSweatpants.jpg"" width="100" height="100">
+<img id ="graychino" onclick="changeimage()" src="" width="100" height="100">
+<img id ="lightgraysweatpants" onclick="changeimage()" src="" width="100" height="100">
+<img id ="tansweatshirt" onclick="changeimage()" src="" width="100" height="100">
+<img id ="bluequarterzip" onclick="changeimage()" src="" width="100" height="100">
+<img id ="blackpufferjacket" onclick="changeimage()" src="" width="100" height="100">
+<img id ="bluepuffervest" onclick="changeimage()" src="" width="100" height="100">
+<img id ="darkgrayjacket" onclick="changeimage()" src="" width="100" height="100">
+<img id ="blackquarterzip" onclick="changeimage()" src="" width="100" height="100">
+<img id ="graysweatpants" onclick="changeimage()" src="" width="100" height="100">
     <div style="overflow:auto">
         <div class="menu">
-       
-            <a>Black Sweatpants</a>
+            <a href="#">Black Sweatpants</a>
             <a href="#">Gray Chino</a>
             <a href="#">Light Gray Sweatpants</a>
             <a href="#">Tan Sweatshirt</a>
@@ -67,9 +80,8 @@
         </div>
 
         <div class="main">
-            <h2>Lorum Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-        </div>
+            
+            </div>
 
         <div class="right">
             <h2>About</h2>
