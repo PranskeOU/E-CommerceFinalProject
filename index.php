@@ -49,7 +49,7 @@
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>Man Clothes</h1>
     </div>
-<img id ="blacksweatpants" onclick="changeimage()" src=""C:\Users\Juan Escalante\Downloads\BlackSweatpants.jpg"" width="100" height="100">
+<img id ="blacksweatpants" onclick="changeimage()" src="C:\Users\Juan Escalante\Downloads\BlackSweatpants.jpg" width="100" height="100">
 <img id ="graychino" onclick="changeimage()" src="" width="100" height="100">
 <img id ="lightgraysweatpants" onclick="changeimage()" src="" width="100" height="100">
 <img id ="tansweatshirt" onclick="changeimage()" src="" width="100" height="100">
@@ -76,7 +76,13 @@
         <div class="main">
             <script>
 function changeimage() {
-vardocument.getElementById('myimage').src = "";}
+var image = document.getElementById('blacksweatpants');
+  if (image.src.match("blackSweatpants")) {
+    image.src = "pic_bulboff.gif";
+  } else {
+    image.src = "pic_bulbon.gif";
+  }
+}
             </script>
             </div>
 
