@@ -53,7 +53,8 @@
 
     <div style="overflow:auto">
         <div class="menu">
-          <button>  <a href="#">Black Sweatpants</a></button>
+          <img id = "blacksweat" src="C:\Users\Juan Escalante\Downloads\BlackSweatpants.jpg" style="width:100px">
+          <button onclick="document.getElementById('blacksweat').src='"C:\Users\Juan Escalante\Downloads\BlackSweatpants.jpg"'"><a>Black Sweatpants</a></button>
             <a href="#">Gray Chino</a>
             <a href="#">Light Gray Sweatpants</a>
             <a href="#">Tan Sweatshirt</a>
