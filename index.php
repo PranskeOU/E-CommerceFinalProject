@@ -80,7 +80,7 @@
             </div>
  
  <script>
-  documentt.getelementbyId("graychino").onclick = function() {click()};
+  documentt.getelementbyId('graychino').onclick = function() {click()};
  function click()
   {document.getelementbyid('title').innerhtml="Gray";}</script>
         <div class="right">
