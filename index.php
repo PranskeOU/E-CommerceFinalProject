@@ -78,8 +78,8 @@
             <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490">
             </div>
         <div class="right">
-            <h2>About</h2>
-            <p id="price">Price is: $20 </p>
+            <h2>Price</h2>
+            <p id="price">$20</p>
          <a class="btn btn-primary" href="order.php" role="button">Order</a>
         </div>
     </div>
