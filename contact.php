@@ -60,7 +60,8 @@ input[type=submit]:hover {
      <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
 
-    <label for="phonenumber">Phone Number</label>
+  
+     <label for="phonenumber">Phone number</label>
     <input type="number" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
 
 
