@@ -63,21 +63,19 @@
         <div class="menu">
             <a onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'" >Black Sweatpants</a>
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2'">Gray Chino</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Light Gray Sweatpants</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Tan Sweatshirt</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Blue Quarter Zip </a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Black Puffer Jacket</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Black Puffer Vest</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Dark Gray Jacket</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Black Quarter Zip</a>
+            <a onclick="document.getElementById('image').src='https://images.lululemon.com/is/image/lululemon/LM5942S_032798_1'">Light Gray Sweatpants</a>
+            <a onclick="document.getElementById('image').src='https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg'">Tan Sweatshirt</a>
+            <a onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0831/9103/products/ford2_650x.jpg?v=1643222678'">Blue Quarter Zip </a>
+            <a onclick="document.getElementById('image').src='https://d4zpg1jklewne.cloudfront.net/steak/spree-variant/2019-1572892255122/mens-leather-puffer-jacket-in-black-product.jpg'">Black Puffer Jacket</a>
+            <a onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/71Gvo3cts3L._AC_UY1000_.jpg'">Black Puffer Vest</a>
+            <a onclick="document.getElementById('image').src='https://superstarjackets.com/wp-content/uploads/2022/03/Leonardo-DiCaprio-Grey-Suede-Bomber-Leather-Jacket-1-1.jpg'">Dark Gray Jacket</a>
+            <a onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/81-ib10h7gL._AC_UY1000_.jpg'">Black Quarter Zip</a>
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Sweatpants</a>
         </div>
 
         <div class="main">
             <h2>Lorum Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-      <img id ="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="100" height="100">
-
+            <img id ="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="100" height="100">
             </div>
 
         <div class="right">
