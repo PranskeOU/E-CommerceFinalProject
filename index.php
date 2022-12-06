@@ -10,7 +10,7 @@
 }
      
      body {
-  background-image: url('https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/gallery/32302/1Silhouette__resized.jpg');
+  background-image: url('https://www.lovethispic.com/uploaded_images/221102-Swag-Is-For-Boys-Class-Is-For-Men.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
