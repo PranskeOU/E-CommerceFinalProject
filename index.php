@@ -68,8 +68,8 @@
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Sweatpants</a>
         </div>
 
-        <div class="Center">
-            <h2>Lorum Ipsum</h2>
+        <div class="main">
+            <h2 class="center">Lorum Ipsum</h2>
             <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490">
             </div>
 
