@@ -59,14 +59,14 @@ input[type=submit]:hover {
 
      <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
-
-  
-     <label for="phonenumber">Phone number</label>
-    <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
-
-
+    
+    
     <label for="address">Address</label>
     <input type="text" id="Address" name="address" placeholder="Your address..">
+
+  
+    <label for="phonenumber">Phone number</label>
+    <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
 
     <input class="teal" type="submit" value="Submit">
   </form>
