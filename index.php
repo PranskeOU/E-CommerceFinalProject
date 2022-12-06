@@ -49,7 +49,7 @@
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>Man Clothes</h1>
     </div>
-<img id ="blacksweatpants" onclick="changeimage()" src="C:\Users\Juan Escalante\Downloads\BlackSweatpants.jpg" width="100" height="100">
+<img id ="blacksweatpants" onclick="changeimage()" src="BlackSweatpants.jpg" width="100" height="100">
 <img id ="graychino" onclick="changeimage()" src="" width="100" height="100">
 <img id ="lightgraysweatpants" onclick="changeimage()" src="" width="100" height="100">
 <img id ="tansweatshirt" onclick="changeimage()" src="" width="100" height="100">
