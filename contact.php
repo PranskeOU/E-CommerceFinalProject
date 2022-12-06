@@ -62,7 +62,7 @@ input[type=submit]:hover {
 
   
      <label for="phonenumber">Phone number</label>
-    <input type="number" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
+    <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
 
 
     <label for="address">Address</label>
