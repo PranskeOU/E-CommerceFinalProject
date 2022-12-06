@@ -61,16 +61,16 @@
 <img id ="graysweatpants" onclick="changeimage()" src="" width="100" height="100">
     <div style="overflow:auto">
         <div class="menu">
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'" >Black Sweatpants</a>
-            <a href="#">Gray Chino</a>
-            <a href="#">Light Gray Sweatpants</a>
-            <a href="#">Tan Sweatshirt</a>
-            <a href="#">Blue Quarter Zip </a>
-            <a href="#">Black Puffer Jacket</a>
-            <a href="#">Black Puffer Vest</a>
-            <a href="#">Dark Gray Jacket</a>
-            <a href="#">Black Quarter Zip</a>
-            <a href="#">Gray Sweatpants</a>
+            <a onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'" >Black Sweatpants</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Chino</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Light Gray Sweatpants</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Tan Sweatshirt</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Blue Quarter Zip </a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Black Puffer Jacket</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Black Puffer Vest</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Dark Gray Jacket</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Black Quarter Zip</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Sweatpants</a>
         </div>
 
         <div class="main">
