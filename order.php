@@ -84,7 +84,7 @@
         <div class="right">
             <h2>About</h2>
             <p id="price">Price is: $20 </p>
-         <a class="btn btn-primary" href="order.php" role="button">Order</a>
+         <a class="btn btn-primary" href="order.php" role="button">Confirm Order</a>
         </div>
     </div>
 
