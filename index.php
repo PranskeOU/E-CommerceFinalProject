@@ -61,7 +61,7 @@
 <img id ="graysweatpants" onclick="changeimage()" src="" width="100" height="100">
     <div style="overflow:auto">
         <div class="menu">
-            <a onclick="changeImage()" >Black Sweatpants</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'" >Black Sweatpants</a>
             <a href="#">Gray Chino</a>
             <a href="#">Light Gray Sweatpants</a>
             <a href="#">Tan Sweatshirt</a>
