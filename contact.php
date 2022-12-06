@@ -48,18 +48,11 @@ input[type=submit]:hover {
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="custname">Name (First and Last name)</label>
+    <input type="text" id="custname" name="custname" placeholder="Complete name..">
     
      <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
-
-     <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email..">
-    
     
     <label for="address">Address</label>
     <input type="text" id="Address" name="address" placeholder="Your address..">
