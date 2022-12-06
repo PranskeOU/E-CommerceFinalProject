@@ -19,7 +19,7 @@
                 margin-top: 7px;
                 display: block;
                 width: 100%;
-                color: black;
+                color: white;
             }
 
         .main {
