@@ -21,6 +21,13 @@
             float: left;
             width: 20%;
             text-align: center;
+            background: #415665;
+            height: 75px;
+            
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 22px;
+            color: #fff;
         }
 
             .menu a {
@@ -61,12 +68,14 @@
     </div>
   
 <div style="overflow:auto">
-  <div class="menu">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-    <a href="#">Link 4</a>
-  </div>
+        <div class="menu">
+            <label>Select a size: </label><select id="selectvalue">
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+
+        </div>
 
         <div class="main">
             <h2 id="title">Black Sweatpants</h2>
