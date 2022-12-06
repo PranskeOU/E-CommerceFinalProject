@@ -76,18 +76,8 @@
         <div class="main">
             <h2>Lorum Ipsum</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-      
-            <script>
-function changeimage() {
-var image = document.getElementById('blacksweatpants');
-  if (image.src.match("https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2")) {
-    image.src = "https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603";
-  } else {
-    image.src = "https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2";
-  }
-}
-             </p>
-            </script>
+      <img id ="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="100" height="100">
+
             </div>
 
         <div class="right">
