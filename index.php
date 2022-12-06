@@ -88,7 +88,7 @@
  <script>
   function ppt() {
    var text1="tt";
-   document.getElementById("price").innerhtml = text1;}
+   document.getElementById('price').innerhtml = text1;}
  </script>
 
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
