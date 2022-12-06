@@ -62,7 +62,7 @@
     <div style="overflow:auto">
         <div class="menu">
             <a onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'" >Black Sweatpants</a>
-            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Chino</a>
+            <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2'">Gray Chino</a>
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Light Gray Sweatpants</a>
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Tan Sweatshirt</a>
             <a onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Blue Quarter Zip </a>
