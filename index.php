@@ -8,6 +8,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+     
+     body {
+  background-image: url('https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/gallery/32302/1Silhouette__resized.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
           h2 {
   display: block;
   margin-left: auto;
