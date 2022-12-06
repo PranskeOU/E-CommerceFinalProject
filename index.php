@@ -49,16 +49,6 @@
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>Man Clothes</h1>
     </div>
-<img id ="blacksweatpants" onclick="changeimage()" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="100" height="100">
-<img id ="graychino" onclick="changeimage()" src="" width="100" height="100">
-<img id ="lightgraysweatpants" onclick="changeimage()" src="" width="100" height="100">
-<img id ="tansweatshirt" onclick="changeimage()" src="" width="100" height="100">
-<img id ="bluequarterzip" onclick="changeimage()" src="" width="100" height="100">
-<img id ="blackpufferjacket" onclick="changeimage()" src="" width="100" height="100">
-<img id ="bluepuffervest" onclick="changeimage()" src="" width="100" height="100">
-<img id ="darkgrayjacket" onclick="changeimage()" src="" width="100" height="100">
-<img id ="blackquarterzip" onclick="changeimage()" src="" width="100" height="100">
-<img id ="graysweatpants" onclick="changeimage()" src="" width="100" height="100">
     <div style="overflow:auto">
         <div class="menu">
             <a onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'" >Black Sweatpants</a>
@@ -75,7 +65,7 @@
 
         <div class="main">
             <h2>Lorum Ipsum</h2>
-            <img id ="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="100" height="100">
+            <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="500" height="500">
             </div>
 
         <div class="right">
