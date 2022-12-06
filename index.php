@@ -71,6 +71,7 @@
             <a id="darkgrayjacket" onclick="document.getElementById('image').src='https://superstarjackets.com/wp-content/uploads/2022/03/Leonardo-DiCaprio-Grey-Suede-Bomber-Leather-Jacket-1-1.jpg'">Dark Gray Jacket</a>
             <a id="blackquarterzip" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/81-ib10h7gL._AC_UY1000_.jpg'">Black Quarter Zip</a>
             <a id="graysweatpants" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Sweatpants</a>
+         <button onclick="ppt()">siu</button>
         </div>
 
         <div class="main">
@@ -85,7 +86,7 @@
     </div>
  
  <script>
-  function blacksweatpants() {
+  function ppt() {
    var text1="tt";
    document.getElementById("price").innerhtml = text1;}
  </script>
