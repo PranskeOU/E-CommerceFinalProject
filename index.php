@@ -86,7 +86,7 @@
  
  <script>
   function blacksweatpants() {
-   document.getElementById('blacksweatpants').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603';}
+   document.getElementById("blacksweatpants").src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603';}
  </script>
 
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
