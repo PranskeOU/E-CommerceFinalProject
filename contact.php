@@ -64,8 +64,8 @@ input[type=submit]:hover {
     <input type="number" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
 
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="address">Address</label>
+    <input type="text" id="Address" name="address" placeholder="Your address..">
 
     <input class="teal" type="submit" value="Submit">
   </form>
