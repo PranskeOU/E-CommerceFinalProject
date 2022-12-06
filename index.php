@@ -53,16 +53,16 @@
 
     <div style="overflow:auto">
         <div class="menu">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
-            <a href="#">Link 6</a>
-            <a href="#">Link 7</a>
-            <a href="#">Link 8</a>
-            <a href="#">Link 9</a>
-            <a href="#">Link 10</a>
+            <a href="#">Black Sweatpants</a>
+            <a href="#">Gray Chino</a>
+            <a href="#">Light Gray Sweatpants</a>
+            <a href="#">Tan Sweatshirt</a>
+            <a href="#">Blue Quarter Zip </a>
+            <a href="#">Black Puffer Jacket</a>
+            <a href="#">Black Puffer Vest</a>
+            <a href="#">Dark Gray Jacket</a>
+            <a href="#">Black Quarter Zip</a>
+            <a href="#">Gray Sweatpants</a>
         </div>
 
         <div class="main">
