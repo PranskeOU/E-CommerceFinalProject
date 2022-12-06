@@ -19,12 +19,16 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 0.4s;
+  margin: 4px 2px;
+  text-align: center;
+  
 }
 
 input[type=submit]:hover {
