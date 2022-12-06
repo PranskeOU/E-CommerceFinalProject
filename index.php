@@ -49,7 +49,7 @@
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>Man Clothes</h1>
     </div>
-<img src="71gmp+RaB9L._AC_UL320_.jpg" width="100" height="100">
+<img id ="blacksweatpants" onclick="changeimage()" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="100" height="100">
 <img id ="graychino" onclick="changeimage()" src="" width="100" height="100">
 <img id ="lightgraysweatpants" onclick="changeimage()" src="" width="100" height="100">
 <img id ="tansweatshirt" onclick="changeimage()" src="" width="100" height="100">
