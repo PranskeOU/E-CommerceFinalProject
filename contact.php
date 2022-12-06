@@ -52,7 +52,7 @@ input[type=submit]:hover {
 
     <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
+      <option value="australia">Colombia</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
     </select>
@@ -60,7 +60,7 @@ input[type=submit]:hover {
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input class="teal" type="submit" value="Submit">
   </form>
 </div>
 
