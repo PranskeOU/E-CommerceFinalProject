@@ -73,6 +73,7 @@
         <div class="right">
             <h2>About</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+         <a class="btn btn-primary" href="order.php" role="button">Order</a>
         </div>
     </div>
 
