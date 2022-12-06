@@ -60,6 +60,9 @@ input[type=submit]:hover {
   
     <label for="phonenumber">Phone number</label>
     <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
+    
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
     <input class="teal" type="submit" value="Submit">
   </form>
