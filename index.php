@@ -77,7 +77,7 @@
             <script>
 function changeimage() {
 var image = document.getElementById('blacksweatpants');
-  if (image.src.match("blackSweatpants")) {
+  if (image.src.match("https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2")) {
     image.src = "https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603";
   } else {
     image.src = "pic_bulbon.gif";
