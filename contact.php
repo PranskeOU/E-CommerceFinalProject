@@ -57,13 +57,12 @@ input[type=submit]:hover {
      <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
 
+     <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Colombia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+    <label for="phonenumber">Phone Number</label>
+    <input type="number" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
+
 
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
