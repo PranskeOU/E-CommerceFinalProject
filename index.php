@@ -46,12 +46,6 @@
     </style>
 </head>
 <body style="font-family:Verdana;color:#aaaaaa;">
-
-<script>
-function changeimage() {
-document.getElementById('myimage').src = "compman.gif";
-}
-</script>
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>Man Clothes</h1>
     </div>
@@ -67,7 +61,7 @@ document.getElementById('myimage').src = "compman.gif";
 <img id ="graysweatpants" onclick="changeimage()" src="" width="100" height="100">
     <div style="overflow:auto">
         <div class="menu">
-            <a href="#">Black Sweatpants</a>
+            <a onclick="changeImage()" >Black Sweatpants</a>
             <a href="#">Gray Chino</a>
             <a href="#">Light Gray Sweatpants</a>
             <a href="#">Tan Sweatshirt</a>
@@ -80,7 +74,10 @@ document.getElementById('myimage').src = "compman.gif";
         </div>
 
         <div class="main">
-            
+            <script>
+function changeimage() {
+vardocument.getElementById('myimage').src = "";}
+            </script>
             </div>
 
         <div class="right">
