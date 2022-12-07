@@ -46,7 +46,7 @@
         <script>
           $(document).on('click', '#send', function(e) {
           var values = $('#password').val();
-          if(values == 1234) {
+          if(values == "Juan234") {
             location ="allcustomers.php";
           }
           } )
