@@ -103,43 +103,5 @@
     </div>
 
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
-
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-     <th>ID</th>
-     <th>Name</th>
-     <th>Phone Number</th>
-     <th>Email</th>
-     <th>Address</th>
-    </tr>
-  </thead>
-  <tbody>
-   <?php
-    require_once("connection.php");
-    $sql = "SELECT * from Customer";
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
-     // output data of each row
-    while($row = $result->fetch_assoc()) {
-   ?>
-  <tr>
-    <td><?=$row["CustomerID"]?></td>
-    <td><?=$row["CustomerName"]?></td>
-    <td><?=$row["CustomerPhone"]?></td>
-    <td><?=$row["CustomerEmail"]?></td>
-    <td><?=$row["CustomerAddress"]?></td>
-  </tr>
-<?php
-  }
-} else {
-  echo "0 results";
-}
-$conn->close();
-?>
- </tbody>
- </table>
   </body>
 </html>
