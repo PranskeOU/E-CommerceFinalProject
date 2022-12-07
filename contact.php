@@ -85,13 +85,12 @@ input[type=submit]:hover {
 
     <input class="teal" type="submit" name="saveType" value="Submit">
     <?php
-    use PHPMailer;
     if(isset($_POST['submit'])) 
       { 
       	$to= "pranske@ou.edu"; 
       	$subject= "Man Clothes Message"; 
       	$msg= $_POST["message"]; //textarea value will be send as message here. 
-      	$header= "From: contact@manclothes.oak" //For example: From: abc@xyz.com 
+      	$header= "From: " . "pranskeo@pranske.oucreate.com" //For example: From: abc@xyz.com 
       	mail($to,$subject,$msg,$header); 
       } 
     ?>
