@@ -7,7 +7,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0.5;
 }
      
      body {
@@ -15,6 +14,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
 }
           h2 {
   display: block;
