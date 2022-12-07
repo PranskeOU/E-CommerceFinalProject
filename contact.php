@@ -60,6 +60,7 @@ input[type=submit]:hover {
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New instructor added.</div>';
       break;
+  }
   ?>
 
 <div class="container">
