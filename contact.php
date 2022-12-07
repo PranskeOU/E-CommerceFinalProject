@@ -50,24 +50,34 @@ input[type=submit]:hover {
 <body>
 
 <h3>Contact Form</h3>
+<?php require_once("connection.php");
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  switch ($_POST['saveType']) {
+    case 'Submit':
+      $sqlAdd = "insert into Customer (CustomerName, CustomerPhone, CustomerEmail, CustomerAddress) values (?,?,?,?)";
+      $stmtAdd = $conn->prepare($sqlAdd);
+      $stmtAdd->bind_param("ssss", $_POST['custname'], $_POST['phonenumber'], $_POST['email'], $_POST['address']);
+      $stmtAdd->execute();
+      echo '<div class="alert alert-success" role="alert">New instructor added.</div>';
+      break;
+  ?>
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="/action_page.php" method="post">
     <label for="custname">Name (First and Last name)</label>
-    <input type="text" id="custname" name="custname" placeholder="Complete name..">
+    <input type="text" id="custname" name="custname" placeholder="Your full name...">
     
      <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email..">
+    <input type="text" id="email" name="email" placeholder="Your email...">
     
     <label for="address">Address</label>
-    <input type="text" id="Address" name="address" placeholder="Your address..">
-
+    <input type="text" id="address" name="address" placeholder="Your address...">
   
     <label for="phonenumber">Phone number</label>
-    <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number..">
+    <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number...">
     
     <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
 
     <input class="teal" type="submit" value="Submit">
   </form>
