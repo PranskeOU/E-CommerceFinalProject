@@ -84,6 +84,16 @@ input[type=submit]:hover {
     <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
 
     <input class="teal" type="submit" name="saveType" value="Submit">
+    <?php
+    if(isset($_POST['submit'])) 
+      { 
+      	$to= "pranske@ou.edu"; 
+      	$subject= "Man Clothes Message"; 
+      	$msg= $_POST["message"]; //textarea value will be send as message here. 
+      	$header= "From: contact@manclothes.oak" //For example: From: abc@xyz.com 
+      	mail($to,$subject,$msg,$header); 
+      } 
+    ?>
   </form>
 </div>
 
