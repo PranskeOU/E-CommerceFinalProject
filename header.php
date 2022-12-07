@@ -36,7 +36,12 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="allorders.php">Past Orders</a>
         </li>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="allcustomers.php">All Customers</a>
+        </li>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
