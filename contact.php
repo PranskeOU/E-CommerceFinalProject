@@ -59,7 +59,7 @@ input[type=submit]:hover {
       $stmtAdd = $conn->prepare($sqlAdd);
       $stmtAdd->bind_param("ssss", $_POST['custname'], $_POST['phonenumber'], $_POST['email'], $_POST['address']);
       $stmtAdd->execute();
-      echo '<div class="alert alert-success" role="alert">New instructor added.</div>';
+      echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
       break;
     }
   }
