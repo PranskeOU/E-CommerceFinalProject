@@ -85,14 +85,14 @@ input[type=submit]:hover {
 
     <input class="teal" type="submit" name="saveType" value="Submit">
     <?php
-    if(isset($_POST['submit'])) 
-      { 
-      	$to= "pranske@ou.edu"; 
-      	$subject= "Man Clothes Message"; 
-      	$msg= $_POST["message"]; //textarea value will be send as message here. 
-      	$header= "From: " . "contact@pranske.oucreate.com" //For example: From: abc@xyz.com 
-      	mail($to,$subject,$msg,$header); 
-      } 
+    //if(isset($_POST['submit'])) 
+    //  { 
+    //  	$to= "jbellah@ou.edu"; 
+    //  	$subject= "Man Clothes Message"; 
+    //  	$msg= $_POST["message"]; //textarea value will be send as message here. 
+    //  	$header= "From: " . "contact@pranske.oucreate.com" //For example: From: abc@xyz.com 
+    //  	mail($to,$subject,$msg,$header); 
+    //  } 
     ?>
   </form>
 </div>
