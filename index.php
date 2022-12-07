@@ -63,9 +63,9 @@
         }
     </style>
 </head>
-<body style="font-family:Verdana;color:#aaaaaa;">
+<body style="font-family:Stencil Std, fantasy; font-weight:bold;color:#aaaaaa;">
     <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
-        <h1>Man Clothes</h1>
+        <h1>MAN CLOTHES</h1>
     </div>
     <div style="overflow:auto">
         <div class="menu">
