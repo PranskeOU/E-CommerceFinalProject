@@ -50,7 +50,8 @@ input[type=submit]:hover {
 <body>
 
 <h3>Contact Form</h3>
-<?php require_once("connection.php");
+<?php 
+  require_once("connection.php");
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Submit':
@@ -60,6 +61,7 @@ input[type=submit]:hover {
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New instructor added.</div>';
       break;
+    }
   }
   ?>
 
