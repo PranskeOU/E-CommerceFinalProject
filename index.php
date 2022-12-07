@@ -7,6 +7,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0.5;
 }
      
      body {
@@ -14,8 +15,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  
 }
           h2 {
   display: block;
@@ -70,20 +69,30 @@
     </div>
     <div style="overflow:auto">
         <div class="menu">
-            <a id="blacksweatpants" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603'">Black Sweatpants</a>
-            <a id="graychino" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2' ">Gray Chino</a>
-            <a id="lightgraysweatpants" onclick="document.getElementById('image').src='https://images.lululemon.com/is/image/lululemon/LM5942S_032798_1'">Light Gray Sweatpants</a>
-            <a id="tansweatshirt" onclick="document.getElementById('image').src='https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg'">Tan Sweatshirt</a>
-            <a id="bluequarterzip" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0831/9103/products/ford2_650x.jpg?v=1643222678'">Blue Quarter Zip </a>
-            <a id="blackpufferjacket" onclick="document.getElementById('image').src='https://d4zpg1jklewne.cloudfront.net/steak/spree-variant/2019-1572892255122/mens-leather-puffer-jacket-in-black-product.jpg'">Black Puffer Jacket</a>
-            <a id="blackpuffervest" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/71Gvo3cts3L._AC_UY1000_.jpg'">Black Puffer Vest</a>
-            <a id="darkgrayjacket" onclick="document.getElementById('image').src='https://superstarjackets.com/wp-content/uploads/2022/03/Leonardo-DiCaprio-Grey-Suede-Bomber-Leather-Jacket-1-1.jpg'">Dark Gray Jacket</a>
-            <a id="blackquarterzip" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/81-ib10h7gL._AC_UY1000_.jpg'">Black Quarter Zip</a>
-            <a id="graysweatpants" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2'">Gray Sweatpants</a>
+            <a id="blacksweatpants" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603';
+                                             document.getElementById('title').innerHTML = 'Black Sweatpants';">Black Sweatpants</a>
+            <a id="graychino" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2';
+                                       document.getElementById('title').innerHTML = 'Gray Chino';">Gray Chino</a>
+            <a id="lightgraysweatpants" onclick="document.getElementById('image').src='https://images.lululemon.com/is/image/lululemon/LM5942S_032798_1';
+                                                 document.getElementById('title').innerHTML = 'Light Gray Sweatpants';">Light Gray Sweatpants</a>
+            <a id="tansweatshirt" onclick="document.getElementById('image').src='https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg';
+                                           document.getElementById('title').innerHTML = 'Tan Sweatshirt';">Tan Sweatshirt</a>
+            <a id="bluequarterzip" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0831/9103/products/ford2_650x.jpg?v=1643222678'
+                                            document.getElementById('title').innerHTML = 'Blue Quarter Zip';">Blue Quarter Zip </a>
+            <a id="blackpufferjacket" onclick="document.getElementById('image').src='https://d4zpg1jklewne.cloudfront.net/steak/spree-variant/2019-1572892255122/mens-leather-puffer-jacket-in-black-product.jpg';
+                                               document.getElementById('title').innerHTML = 'Black Puffer Jacket';">Black Puffer Jacket</a>
+            <a id="blackpuffervest" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/71Gvo3cts3L._AC_UY1000_.jpg';
+                                             document.getElementById('title').innerHTML = 'Black Puffer Vest';">Black Puffer Vest</a>
+            <a id="darkgrayjacket" onclick="document.getElementById('image').src='https://superstarjackets.com/wp-content/uploads/2022/03/Leonardo-DiCaprio-Grey-Suede-Bomber-Leather-Jacket-1-1.jpg';
+                                            document.getElementById('title').innerHTML = 'Dark Gray Jacket';">Dark Gray Jacket</a>
+            <a id="blackquarterzip" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/81-ib10h7gL._AC_UY1000_.jpg';
+                                             document.getElementById('title').innerHTML = 'Black Quarter Zip';">Black Quarter Zip</a>
+            <a id="graysweatpants" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2';
+                                            document.getElementById('title').innerHTML = 'Gray Sweatpants';">Gray Sweatpants</a>
         </div>
 
         <div class="main">
-            <h2 id="title">Black Sweatpants</h2>
+         <h2 id="title">Black Sweatpants</h2>
             <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490">
             </div>
         <div class="right">
