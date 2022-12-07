@@ -85,7 +85,7 @@ input[type=submit]:hover {
 
     <input class="teal" type="submit" name="saveType" value="Submit">
     <?php
-    composer require phpmailer/phpmailer
+    use PHPMailer;
     if(isset($_POST['submit'])) 
       { 
       	$to= "pranske@ou.edu"; 
