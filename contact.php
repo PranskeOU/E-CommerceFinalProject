@@ -66,7 +66,7 @@ input[type=submit]:hover {
   ?>
 
 <div class="container">
-  <form action="/action_page.php" method="post">
+  <form action="" method="post">
     <label for="custname">Name (First and Last name)</label>
     <input type="text" id="custname" name="custname" placeholder="Your full name...">
     
