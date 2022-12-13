@@ -64,6 +64,7 @@
     </style>
 </head>
 <?php
+require_once('connection.php');
 $sql = "SELECT ProductID, ProductName, Price from Product";
 $result = $conn->query($sql);
 
