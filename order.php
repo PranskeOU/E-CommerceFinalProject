@@ -85,7 +85,7 @@
         </div>
 
         <div class="main">
-            <h2 id="title">Black Sweatpants</h2>
+            <h2 id="title"><span id="title"></span></h2>
             <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490">
             </div>
         <div class="right">
