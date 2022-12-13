@@ -63,55 +63,43 @@
         }
     </style>
 </head>
-<?php
-require_once('connection.php');
-$sql = "SELECT ProductID, ProductName, Price from Product";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
-?>
-  <!-- 
-    <tr>
-    <td><?=$row["instructor_id"]?></td>
-    <td><?=$row["instructor_name"]?></td>
-    <td><?=$row["num_years"]?></td>
-  </tr> 
--->
-
 <body style="font-family: Verdana; color:#aaaaaa;">
     <div style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>MAN CLOTHES</h1>
     </div>
     <div style="overflow:auto">
         <div class="menu">
-            <a name="<?=$row["ProductID"]?>" id="blacksweatpants" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603';
-                                                                 OnClick(<?=$row['ProductID']?>);">Performance Stretch Knit Jogger Pant</a>
-            <a name="<?=$row["ProductID"]?>" id="graychino" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2';
-                                                           OnClick(<?=$row['ProductID']?>);">Athletic-Fit 5-Pocket Stretch Twill Pant</a>
-            <a name="<?=$row["ProductID"]?>" id="lightgraysweatpants" onclick="document.getElementById('image').src='https://images.lululemon.com/is/image/lululemon/LM5942S_032798_1';
-                                                                     OnClick(<?=$row['ProductID']?>);">Fleece Jogger Pants</a>
-            <a name="<?=$row["ProductID"]?>" id="tansweatshirt" onclick="document.getElementById('image').src='https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg';
-                                                               OnClick(<?=$row['ProductID']?>);">Hooded Lightweight Sweatshirt</a>
-            <a name="<?=$row["ProductID"]?>" id="bluequarterzip" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0831/9103/products/ford2_650x.jpg?v=1643222678'
-                                                                OnClick(<?=$row['ProductID']?>);">Long-Sleeve Quarter-Zip Fleece Sweatshirt</a>
-            <a name="<?=$row["ProductID"]?>" id="blackpufferjacket" onclick="document.getElementById('image').src='https://d4zpg1jklewne.cloudfront.net/steak/spree-variant/2019-1572892255122/mens-leather-puffer-jacket-in-black-product.jpg';
-                                                                   OnClick(<?=$row['ProductID']?>);">Lightweight Packable Hooded Puffer Jacket</a>
-            <a name="<?=$row["ProductID"]?>" id="blackpuffervest" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/71Gvo3cts3L._AC_UY1000_.jpg';
-                                                                 OnClick(<?=$row['ProductID']?>);">Packable Lightweight Puffer Vest</a>
-            <a name="<?=$row["ProductID"]?>" id="darkgrayjacket" onclick="document.getElementById('image').src='https://superstarjackets.com/wp-content/uploads/2022/03/Leonardo-DiCaprio-Grey-Suede-Bomber-Leather-Jacket-1-1.jpg';
-                                                                OnClick(<?=$row['ProductID']?>);">Full-Zip Fleece Mock Neck Sweatshirt</a>
-            <a name="<?=$row["ProductID"]?>" id="blackquarterzip" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/81-ib10h7gL._AC_UY1000_.jpg';
-                                                                 OnClick(<?=$row['ProductID']?>);">Lightweight Quarter-Zip Mock Neck Sweatshirt</a>
-            <a name="<?=$row["ProductID"]?>" id="graysweatpants" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2';
-                                            OnClick(<?=$row['ProductID']?>);">Closed Bottom Fleece Sweatpants</a>
+            <a id="blacksweatpants" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603';
+                                             document.getElementById('title').innerHTML = 'Black Sweatpants';
+                                             document.getElementById('price').innerHTML = '$20';">Black Sweatpants</a>
+            <a id="graychino" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/246b6407-c608-4c7c-8030-5f0791bed104.jpeg?h=365&w=240&dpr=2';
+                                       document.getElementById('title').innerHTML = 'Gray Chino';
+                                       document.getElementById('price').innerHTML = '$20';">Gray Chino</a>
+            <a id="lightgraysweatpants" onclick="document.getElementById('image').src='https://images.lululemon.com/is/image/lululemon/LM5942S_032798_1';
+                                                 document.getElementById('title').innerHTML = 'Light Gray Sweatpants';
+                                                 document.getElementById('price').innerHTML = '$23';">Light Gray Sweatpants</a>
+            <a id="tansweatshirt" onclick="document.getElementById('image').src='https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg';
+                                           document.getElementById('title').innerHTML = 'Tan Sweatshirt';
+                                           document.getElementById('price').innerHTML = '$18';">Tan Sweatshirt</a>
+            <a id="bluequarterzip" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0831/9103/products/ford2_650x.jpg?v=1643222678'
+                                            document.getElementById('title').innerHTML = 'Blue Quarter Zip';
+                                            document.getElementById('price').innerHTML = '$23';">Blue Quarter Zip </a>
+            <a id="blackpufferjacket" onclick="document.getElementById('image').src='https://d4zpg1jklewne.cloudfront.net/steak/spree-variant/2019-1572892255122/mens-leather-puffer-jacket-in-black-product.jpg';
+                                               document.getElementById('title').innerHTML = 'Black Puffer Jacket';
+                                               document.getElementById('price').innerHTML = '$36';">Black Puffer Jacket</a>
+            <a id="blackpuffervest" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/71Gvo3cts3L._AC_UY1000_.jpg';
+                                             document.getElementById('title').innerHTML = 'Black Puffer Vest';
+                                             document.getElementById('price').innerHTML = '$35';">Black Puffer Vest</a>
+            <a id="darkgrayjacket" onclick="document.getElementById('image').src='https://superstarjackets.com/wp-content/uploads/2022/03/Leonardo-DiCaprio-Grey-Suede-Bomber-Leather-Jacket-1-1.jpg';
+                                            document.getElementById('title').innerHTML = 'Dark Gray Jacket';
+                                            document.getElementById('price').innerHTML = '$25';">Dark Gray Jacket</a>
+            <a id="blackquarterzip" onclick="document.getElementById('image').src='https://m.media-amazon.com/images/I/81-ib10h7gL._AC_UY1000_.jpg';
+                                             document.getElementById('title').innerHTML = 'Black Quarter Zip';
+                                             document.getElementById('price').innerHTML = '$16';">Black Quarter Zip</a>
+            <a id="graysweatpants" onclick="document.getElementById('image').src='https://n.nordstrommedia.com/id/sr3/c7976e34-da7d-4949-8aca-aaa4c1d6c8a0.jpeg?h=365&w=240&dpr=2';
+                                            document.getElementById('title').innerHTML = 'Gray Sweatpants';
+                                            document.getElementById('price').innerHTML = '$20';">Gray Sweatpants</a>
         </div>
-        <script>
-            function OnClick(productID){
-                return document.getElementById('title').innerHTML = <?=$row["ProductName"]?>;
-            }
-        </script>
 
         <div class="main">
          <h2 id="title">Black Sweatpants</h2>
@@ -123,13 +111,7 @@ if ($result->num_rows > 0) {
          <a class="btn btn-primary" href="order.php" role="button">Order</a>
         </div>
     </div>
-    <?php
-    }
-        } else {
-          echo "0 results";
-        }
-    $conn->close();
-    ?>
+
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
   </body>
 </html>
