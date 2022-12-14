@@ -114,7 +114,7 @@
         <script>
             function getHref(product) {
             var href = "order" + product.replace(/\s/g, '') + ".php";
-            document.getElementById('link').textContent = href;
+            //document.getElementById('link').textContent = href;
             document.getElementById('link').innerHTML = href;
             return document.getElementById('link').innerHTML;
             }
