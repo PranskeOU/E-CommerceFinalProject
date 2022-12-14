@@ -64,9 +64,6 @@
     </style>
 </head>
 <body style="font-family: Verdana; color:#aaaaaa;">
-    <div style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
-        <h1>MAN CLOTHES</h1>
-    </div>
     <div style="overflow:auto">
         <div class="menu">
             <a id="blacksweatpants" onclick="document.getElementById('image').src='https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603';

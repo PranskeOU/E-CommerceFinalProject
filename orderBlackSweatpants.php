@@ -74,14 +74,28 @@
         <h1>Man Clothes</h1>
     </div>
   
+    <?php 
+  require_once("connection.php");
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    switch ($_POST['saveType']) {
+        case 'Submit':
+            $totalPrice = 20 * $_POST['quantity'];
+            $productID = 4;
+            $sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
+            $stmt = $conn->prepare($sqlAdd);
+            $stmt->bind_param("iiii", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
+            $stmt->execute();
+            echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
+        break;
+        }
+    }
+    ?>
 <div style="overflow:auto">
         <div class="menu">
-            <label>Enter a quantity: </label><select id="selectvalue">
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
-            </select>
-
+            <label>Customer ID: </label>
+            <input type="text" id="custID" name="custID">
+            <label>Quantity:</label>
+                <input type="text" id="quantity" name="quantity">
         </div>
 
         <div class="main">
@@ -91,7 +105,7 @@
         <div class="right">
             <h2>Price</h2>
             <p id="price">$20</p>
-         <a class="btn btn-primary" href="confirm.php" role="button">Confirm Order</a>
+         <a class="btn btn-primary" href="confirm.php" role="button" type="submit" name="saveType">Confirm Order</a>
         </div>
     </div>
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>

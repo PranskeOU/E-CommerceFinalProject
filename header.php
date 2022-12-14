@@ -19,11 +19,6 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="order.php">Order</a>
-        </li>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="confirm.php">Order Confirmation</a>
         </li>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,6 +43,9 @@
      </div>
     </div>
    </div>
+   <div style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
+        <h1>MAN CLOTHES</h1>
+    </div>
   </head>
     </html>
 
