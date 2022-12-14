@@ -75,14 +75,13 @@
 
         
         <div class="main">
-         <h2 id="title">Black Sweatpants</h2>
+         <h2 id="title">Thank You For Your Order</h2>
             <img id="image" src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603" width="490" height="490">
             </div>
         <div class="right">
-            <h2>Price</h2>
-            <p id="price">$20</p>
-            <a id="link" hidden></a>
-         <a class="btn btn-primary" role="button" onclick="location.href = getHref(document.getElementById('title').innerHTML)">Order</a>
+            <h2>Continue Shopping</h2>
+            
+        <a class="btn btn-primary" href="index.php" role="button">To Store</a>
         </div>
     </div>
 
