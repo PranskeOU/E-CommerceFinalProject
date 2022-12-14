@@ -105,7 +105,7 @@
         <div class="right">
             <h2>Price</h2>
             <p id="price">$20</p>
-         <a class="btn btn-primary" href="confirm.php" role="button" type="submit" name="saveType">Confirm Order</a>
+         <a class="btn btn-primary" role="button" type="submit" name="saveType">Confirm Order</a>
         </div>
     </div>
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright JuanNickLogan.oak</div>
