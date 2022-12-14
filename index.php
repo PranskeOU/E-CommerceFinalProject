@@ -127,7 +127,7 @@
         <div class="right">
             <h2>Price</h2>
             <p id="price">$20</p>
-         <a class="btn btn-primary" href="order.php" role="button">Order</a>
+         <a class="btn btn-primary" href="javascript:getHref()" role="button">Order</a>
         </div>
     </div>
 
