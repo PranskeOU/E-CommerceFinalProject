@@ -87,7 +87,7 @@
     require_once("connection.php");
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         switch ($_POST['saveType']) {
-            case 'Submit':
+            case 'Confirm Order':
                 $totalPrice = 20 * $_POST['quantity'];
                 $productID = 4;
                 $sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
@@ -117,7 +117,7 @@
             <div class="right">
                 <h2>Price</h2>
                 <p id="price">$20</p>
-                <a class="btn btn-primary" role="button" type="submit" name="saveType">Confirm Order</a>
+                <a class="btn btn-primary" role="button" type="submit" name="saveType" value="Confirm Order">Confirm Order</a>
         </form>
     </div>
     < </div>
