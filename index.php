@@ -110,7 +110,6 @@
                                             document.getElementById('price').innerHTML = '$20';
                                             getHref();">Gray Sweatpants</a>
         </div>
-        <p id="title"></p>
 
         <script>
             function getHref() {
