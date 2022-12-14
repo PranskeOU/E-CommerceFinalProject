@@ -4,70 +4,66 @@
  <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
+   <style>
+     img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+     }
+ 
+     body {
+  /*background-image: url('https://res.cloudinary.com/teepublic/image/private/s--bxj92afB--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:48/co_000000,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1564609475/production/designs/5473319_0.jpg');
+      */
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
 }
+          h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+        * {
+            box-sizing: border-box;
+        }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
+            .menu a {
+                background-color: dimgrey;
+                padding: 8px;
+                margin-top: 7px;
+                display: block;
+                width: 100%;
+                color: white;
+            }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
+        .right {
+            background-color: #e5e5e5;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+        @media only screen and (max-width: 620px) {
+            /* For mobile phones: */
+            .menu, .main, .right {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
 
