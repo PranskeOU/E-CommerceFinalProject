@@ -113,7 +113,6 @@
 
         <script>
             function getHref(product) {
-            document.write(product);
             var href = "order" + product.replace(/\s/g, '') + ".php";
             document.getElementById('link').textContent = href;
             document.getElementById('link').innerHTML = href;
@@ -127,7 +126,7 @@
         <div class="right">
             <h2>Price</h2>
             <p id="price">$20</p>
-         <a class="btn btn-primary" role="button" onclick="location.href = getHref()">Order</a>
+         <a class="btn btn-primary" role="button" onclick="location.href = getHref(document.getElementById('title').innerHTML)">Order</a>
         </div>
     </div>
 
