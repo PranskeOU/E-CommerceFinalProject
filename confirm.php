@@ -52,16 +52,7 @@ font-size: 22px;
 </style>
 </head>
 <body>
-<header style = "height: 100px; width: 100%; background-color: #607D8B;" >
-<h1 style=" color: #fff; text-align: center; padding-top: 25px; font-size: 30px;" > Header Section </h1>
-</header>
-<nav style = "background-color: #607d8b9c;" >
-<ul>
-<li> <a href = "#"> Navigation Link1 </a> </li>
-<li> <a href = "#"> Navigation Link2 </a> </li>
-<li> <a href = "#"> Navigation Link3 </a> </li>
-</ul>
-</nav>
+
 <div class = "main">
 <section>
 <h2> Section Part </h2>
