@@ -127,6 +127,7 @@
         <div class="right">
             <h2>Price</h2>
             <p id="price">$20</p>
+            <a id="link" type="hidden">Link</a>
          <a class="btn btn-primary" role="button" onclick="location.href = getHref(document.getElementById('title').innerHTML)">Order</a>
         </div>
     </div>
