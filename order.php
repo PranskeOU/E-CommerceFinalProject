@@ -76,7 +76,7 @@
   
 <div style="overflow:auto">
         <div class="menu">
-            <label>Select a size: </label><select id="selectvalue">
+            <label>Enter a quantity: </label><select id="selectvalue">
                 <option>Small</option>
                 <option>Medium</option>
                 <option>Large</option>
