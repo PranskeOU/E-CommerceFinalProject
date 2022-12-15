@@ -35,7 +35,7 @@
             text-align: center;
             background: #415665;
             height: 200px;
-
+            margin-top: 7px;
             border-radius: 15px;
             padding: 20px;
             font-size: 18px;
