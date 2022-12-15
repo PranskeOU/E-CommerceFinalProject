@@ -96,16 +96,14 @@
     ?>
     <div style="overflow:auto">
 
-        <div class="menu">
+        <div class="container">
             <form onsubmit="return redirectMe();" action="" method="post">
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
                 <br/>
-                <br/>
-                <br/>
-                <br/>
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
+                <br/>
                 <input class="btn btn-primary" type="submit" name="saveType" value="Confirm Order">Confirm
                 Order</input>
             </form>
