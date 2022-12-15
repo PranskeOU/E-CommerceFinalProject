@@ -64,6 +64,7 @@
             padding: 15px;
             margin-top: 7px;
             text-align: center;
+            margin-right: auto;
         }
 
         @media only screen and (max-width: 620px) {
