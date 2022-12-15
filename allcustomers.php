@@ -74,7 +74,7 @@
         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editcustinfo<?=$row["CustomerID"]?>">
                 Edit
               </button>
-              <div class="modal fade" id="editcustinfo<?=$row["basket_id"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editcustinfo<?=$row["football_id"]?>Label" aria-hidden="true">
+              <div class="modal fade" id="editcustinfo<?=$row["CustomerID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editcustinfo<?=$row["CustomerID"]?>Label" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
