@@ -78,11 +78,7 @@
 
         </div>
 
-        <script>
-            function showRandomNumber() {
-                document.getElementById("myNumber").innerHTML = rando(5, 10);
-            }
-        </script>
+   
 
         <div class="main">
             <h2 id="title">Thank You For Your Order</h2>
