@@ -79,10 +79,6 @@
 </head>
 
 <body style="font-family:Verdana;color:#aaaaaa;">
-    <div style="background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
-        <h1>Man Clothes</h1>
-    </div>
-
     <?php
     require_once("connection.php");
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -91,7 +87,7 @@
                 $totalPrice = 20 * $_POST['quantity'];
                 $productID = 4;
                 $sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
-                $stmt = $conn->prepare($sqlAdd);
+                $stmt = $conn->prepare($sql);
                 $stmt->bind_param("iiii", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
                 $stmt->execute();
                 echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
@@ -120,7 +116,7 @@
                 <a class="btn btn-primary" role="button" type="submit" name="saveType" value="Confirm Order">Confirm Order</a>
         </form>
     </div>
-    < </div>
+    </div>
         <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright
             JuanNickLogan.oak</div>
 </body>
