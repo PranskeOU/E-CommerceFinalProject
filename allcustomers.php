@@ -9,9 +9,11 @@
 </head>
       
 <body> 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+<?php  
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
-<?php  case 'Edit':
+ case 'Edit':
       $sqlEdit = "update Customer set CustomerName=?, CustomerEmail=? where CustomerID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
       $stmtEdit->bind_param("ssi", $_POST['ibasketball_name'], $_POST['ibasketballclub'], $_POST['iid']);
