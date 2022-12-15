@@ -96,26 +96,31 @@
     }
     ?>
     <div style="overflow:auto">
-        <form action="" method="post">
-            <div class="menu">
+
+        <div class="menu">
+            <form action="" method="post">
                 <label>Customer ID: </label>
                 <input type="text" id="custID" name="custID">
                 <label>Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
-                <br/>
-                <h2 id="title">Black Sweatpants</h2>
-                <img id="image"
-                    src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603"
-                    width="490" height="490">
-                <br/>
-                <h2>Price</h2>
-                <p id="price">$20</p>
-                <a class="btn btn-primary" role="button" type="submit" name="saveType" value="Confirm Order">Confirm Order</a>
-        </form>
+                <a class="btn btn-primary" role="button" type="submit" name="saveType" value="Confirm Order">Confirm
+                    Order</a>
+            </form>
+        </div>
+
+        <div class="main">
+            <h2 id="title">Black Sweatpants</h2>
+            <img id="image"
+                src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603"
+                width="490" height="490">
+        </div>
+        <div class="right">
+            <h2>Price</h2>
+            <p id="price">$20</p>
+        </div>
     </div>
-    </div>
-        <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright
-            JuanNickLogan.oak</div>
+    <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright
+        JuanNickLogan.oak</div>
 </body>
 
 </html>
