@@ -96,7 +96,7 @@
     ?>
     <div style="overflow:auto">
 
-        <div class="container">
+        <div class="main">
             <form onsubmit="return redirectMe();" action="" method="post">
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
