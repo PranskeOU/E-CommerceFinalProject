@@ -45,7 +45,16 @@
       </tr>
     </thead>
     <tbody>
-     <tr>
+       <?php
+   require_once("connection.php");
+   $sql = "SELECT * FROM Customer";
+   $result = $conn->query($sql);
+
+   if ($result->num_rows > 0) {
+     // output data of each row
+     while ($row = $result->fetch_assoc()) {
+   ?>
+      <tr>
         <td>
           <?= $row["CustomerID"] ?>
         </td>
@@ -61,6 +70,7 @@
         <td>
           <?= $row["CustomerAddress"] ?>
         </td>
+
                  <td>
         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editcustinfo<?=$row["CustomerID"]?>">
                 Edit
