@@ -34,12 +34,12 @@
             width: 25%;
             text-align: center;
             background: #415665;
-            height: 75px;
+            height: 200px;
 
             border-radius: 15px;
             padding: 20px;
             font-size: 18px;
-            color: #000;
+            color: #fff;
         }
 
         .menu a {
