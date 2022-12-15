@@ -100,6 +100,7 @@
             <form onsubmit="return redirectMe();" action="" method="post">
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
+                <br/>
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
                 <input class="btn btn-primary" type="submit" name="saveType" value="Confirm Order">Confirm
