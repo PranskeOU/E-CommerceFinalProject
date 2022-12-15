@@ -99,12 +99,12 @@
 
         <div class="menu">
             <form action="" method="post">
-                <label>Customer ID: </label>
+                <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
-                <label>Quantity:</label>
+                <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
-                <a class="btn btn-primary" role="button" type="submit" name="saveType" value="Confirm Order">Confirm
-                    Order</a>
+                <input class="btn btn-primary" type="submit" name="saveType" value="Confirm Order">Confirm
+                    Order</input>
             </form>
         </div>
 
