@@ -90,7 +90,6 @@
                 $stmt = $conn->prepare($sql);
                 $stmt->bind_param("iiid", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
                 $stmt->execute();
-                echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
                 break;
         }
     }
@@ -98,7 +97,7 @@
     <div style="overflow:auto">
 
         <div class="menu">
-            <form action="" method="post">
+            <form onsubmit="window.location.href = 'confirm.php'" action="" method="post">
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
                 <label for="quantity">Quantity:</label>
