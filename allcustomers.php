@@ -1,4 +1,5 @@
 <?php require_once("header.php"); ?>
+  <?php require_once("connection.php");?>
 <!doctype html>
 
 <html lang="en">
@@ -43,7 +44,6 @@
     </thead>
     <tbody>
        <?php
-   require_once("connection.php");
    $sql = "SELECT * FROM Customer";
    $result = $conn->query($sql);
 
