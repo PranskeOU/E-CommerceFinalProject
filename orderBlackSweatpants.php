@@ -102,15 +102,12 @@
                 <input type="text" id="custID" name="custID">
                 <label>Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
-            </div>
-
-            <div class="main">
+                <br/>
                 <h2 id="title">Black Sweatpants</h2>
                 <img id="image"
                     src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603"
                     width="490" height="490">
-            </div>
-            <div class="right">
+                <br/>
                 <h2>Price</h2>
                 <p id="price">$20</p>
                 <a class="btn btn-primary" role="button" type="submit" name="saveType" value="Confirm Order">Confirm Order</a>

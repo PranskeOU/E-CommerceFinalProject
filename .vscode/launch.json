@@ -14,10 +14,6 @@
                 "-t",
                 "."
             ],
-            "port": 9003,
-            "serverReadyAction": {
-                "action": "openExternally"
-            }
         },
         {
             "name": "Debug current script in console",

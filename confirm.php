@@ -98,7 +98,7 @@
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
 
-            onload="showRandomNumber();">
+            <p onload="showRandomNumber();"></p>
             <div id="myNumber"></div>
 
         </div>
