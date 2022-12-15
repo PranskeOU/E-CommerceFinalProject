@@ -8,10 +8,27 @@
   <title>Man Clothes</title>
 </head>
 <body> 
-
-
-
-
+<?php  
+ if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  switch ($_POST['saveType']) {
+ case 'Edit':
+      $sqlEdit = "update Customer set CustomerName=?, CustomerEmail=? where CustomerID=?";
+      $stmtEdit = $conn->prepare($sqlEdit);
+      $stmtEdit->bind_param("ssi", $_POST['icust_name'], $_POST['icust_email'], $_POST['iid']);
+      $stmtEdit->execute();
+      echo '<div class="alert alert-success" role="alert">Customer edited.</div>';
+   break;
+   case 'Delete':
+        $sqlDelete = "Delete From Customer where CustomerID=?";
+        $stmtDelete = $conn->prepare($sqlDelete);
+        $stmtDelete->bind_param("i", $_POST['cid']);
+        $stmtDelete->execute();
+   echo '<div class="alert alert-success" role="alert">Customer Deleted.</div>';
+  }
+} else {
+  echo "";
+    }
+  ?>
 
   <table class="table table-striped">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
