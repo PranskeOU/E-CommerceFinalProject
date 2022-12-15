@@ -34,11 +34,11 @@
             width: 20%;
             text-align: center;
             background: #415665;
-            height: 75px;
+            height: 35px;
 
             border-radius: 15px;
             padding: 20px;
-            font-size: 22px;
+            font-size: 18px;
             color: #fff;
         }
 
