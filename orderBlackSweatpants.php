@@ -96,7 +96,7 @@
     ?>
     <div style="overflow:auto">
 
-        <div class="menu">
+        <div class="btn btn-primary" style="background-color: dimgray">
             <form onsubmit="return redirectMe();" action="" method="post">
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
@@ -104,7 +104,7 @@
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
                 <br/>
-                <input class="btn" type="submit" name="saveType" value="Confirm Order"></input>
+                <input class="btn btn-primary" style="background-color: dimgray" type="submit" name="saveType" value="Confirm Order"></input>
             </form>
             <script>
                 function redirectMe() {
