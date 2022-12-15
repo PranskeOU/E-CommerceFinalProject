@@ -2,7 +2,24 @@
 <!doctype html>
 
 <html lang="en">
-
+<?php  case 'Edit':
+      $sqlEdit = "update Customer set CustomerName=?, CustomerEmail=? where CustomerID=?";
+      $stmtEdit = $conn->prepare($sqlEdit);
+      $stmtEdit->bind_param("ssi", $_POST['ibasketball_name'], $_POST['ibasketballclub'], $_POST['iid']);
+      $stmtEdit->execute();
+      echo '<div class="alert alert-success" role="alert">Athlete edited.</div>';
+   break;
+   case 'Delete':
+        $sqlDelete = "Delete From Customer where CustomerID=?";
+        $stmtDelete = $conn->prepare($sqlDelete);
+        $stmtDelete->bind_param("i", $_POST['cid']);
+        $stmtDelete->execute();
+   echo '<div class="alert alert-success" role="alert">Customer Deleted.</div>';
+  }
+} else {
+  echo "";
+    }
+  ?>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,6 +63,43 @@
         <td>
           <?= $row["CustomerAddress"] ?>
         </td>
+                 <td>
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editcustinfo<?=$row["CustomerID"]?>">
+                Edit
+              </button>
+              <div class="modal fade" id="editcustinfo<?=$row["basket_id"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editcustinfo<?=$row["football_id"]?>Label" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="editcustinfo<?=$row["CustomerID"]?>Label">Edit customer information</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                      <form method="post" action="">
+                        <div class="mb-3">
+                          <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Customer Name</label>
+                          <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="ibasketball_name" value="<?=$row['CustomerName']?>">
+                          <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Athlete's Club</label>
+                          <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="ibasketballclub" value="<?=$row['CustomerEmail']?>">
+                          <div id="editcustinfo<?=$row["CustomerID"]?>Help" class="form-text">Enter customer's information.</div>
+                        </div>
+                        <input type="hidden" name="iid" value="<?=$row['CustomerID']?>">
+                        <input type="hidden" name="saveType" value="Edit">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <form method="post" action="">
+                <input type="hidden" name="cid" value="<?=$row["CustomerID"]?>" />
+                <input type="hidden" name="saveType" value="Delete">
+                <button type="submit" class="btn btn-light" onclick="return confirm('Are you sure?')"> Delete </button>
+              </form>
+            </td>
       </tr>
       <?php
      }
