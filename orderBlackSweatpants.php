@@ -84,7 +84,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         switch ($_POST['saveType']) {
             case 'Confirm Order':
-                $totalPrice = 20 * (int)$_POST['quantity'];
+                (float)$totalPrice = 20 * $_POST['quantity'];
                 $productID = 4;
                 var_dump((int)$_POST['custID'], 
                 (int)$_POST['quantity'], 
