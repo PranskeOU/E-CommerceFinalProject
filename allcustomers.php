@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Man Clothes</title>
-   <?php
+</head>
+       <?php
    require_once("connection.php");
    $sql = "SELECT * FROM Customer";
    $result = $conn->query($sql);
@@ -31,8 +32,6 @@
         <td>
           <?= $row["CustomerAddress"] ?>
         </td>
-</head>
-      
 <body> 
 
 <?php  
