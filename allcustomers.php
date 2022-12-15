@@ -9,27 +9,7 @@
 </head>
 <body> 
 
-<?php  
- if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  switch ($_POST['saveType']) {
- case 'Edit':
-      $sqlEdit = "update Customer set CustomerName=?, CustomerEmail=? where CustomerID=?";
-      $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("ssi", $_POST['icust_name'], $_POST['icust_email'], $_POST['iid']);
-      $stmtEdit->execute();
-      echo '<div class="alert alert-success" role="alert">Customer edited.</div>';
-   break;
-   case 'Delete':
-        $sqlDelete = "Delete From Customer where CustomerID=?";
-        $stmtDelete = $conn->prepare($sqlDelete);
-        $stmtDelete->bind_param("i", $_POST['cid']);
-        $stmtDelete->execute();
-   echo '<div class="alert alert-success" role="alert">Customer Deleted.</div>';
-  }
-} else {
-  echo "";
-    }
-  ?>
+
 
 
 
