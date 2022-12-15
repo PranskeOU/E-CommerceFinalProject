@@ -102,6 +102,8 @@
                 <input type="text" id="custID" name="custID">
                 <br/>
                 <br/>
+                <br/>
+                <br/>
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
                 <input class="btn btn-primary" type="submit" name="saveType" value="Confirm Order">Confirm
