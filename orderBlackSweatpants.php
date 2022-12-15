@@ -84,17 +84,13 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         switch ($_POST['saveType']) {
             case 'Confirm Order':
-                (float)$totalPrice = 20 * $_POST['quantity'];
+                $totalPrice = 20 * $_POST['quantity'];
                 $productID = 4;
-                var_dump((int)$_POST['custID'], 
-                (int)$_POST['quantity'], 
-                $productID, 
-                $totalPrice);
-                //$sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
-                //$stmt = $conn->prepare($sql);
-                //$stmt->bind_param("iiid", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
-                //$stmt->execute();
-                //echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
+                $sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
+                $stmt = $conn->prepare($sql);
+                $stmt->bind_param("iiid", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
+                $stmt->execute();
+                echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
                 break;
         }
     }
