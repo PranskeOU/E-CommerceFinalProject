@@ -7,7 +7,7 @@
     <style>
         img {
             display: flex;
-            margin-left: auto;
+            margin-left: 20px;
             margin-right: auto;
         }
 
