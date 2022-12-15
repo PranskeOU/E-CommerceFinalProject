@@ -31,15 +31,15 @@
 
         .menu {
             float: left;
-            width: 20%;
+            width: 40%;
             text-align: center;
             background: #415665;
-            height: 35px;
+            height: 75px;
 
             border-radius: 15px;
             padding: 20px;
             font-size: 18px;
-            color: #fff;
+            color: #000;
         }
 
         .menu a {
