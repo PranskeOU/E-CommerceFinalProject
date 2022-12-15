@@ -106,15 +106,15 @@
                 <input type="hidden" name="saveType" value="Delete">
                 <button type="submit" class="btn btn-light" onclick="return confirm('Are you sure?')"> Delete </button>
               </form>
-            </td>
-      </tr>
-      <?php
+       </td>
+        <?php
      }
    } else {
      echo "0 results";
    }
    $conn->close();
    ?>
+      </tr>
     </tbody>
   </table>
 
