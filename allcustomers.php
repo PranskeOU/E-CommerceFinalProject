@@ -2,7 +2,13 @@
 <!doctype html>
 
 <html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Man Clothes</title>
+</head>
       
+<body> 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
 <?php  case 'Edit':
@@ -23,13 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   echo "";
     }
   ?>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Man Clothes</title>
-</head>
 
-<body>
+
+
   <table class="table table-striped">
     <thead>
       <tr>
