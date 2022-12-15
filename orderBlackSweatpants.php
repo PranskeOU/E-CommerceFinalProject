@@ -105,7 +105,7 @@
                 <input type="text" id="custID" name="custID">
                 <br/>
                 <label for="quantity">Quantity:</label>
-                <input type="text" id="quantity" name="quantity">
+                <input style="margin-bottom:5px;" type="text" id="quantity" name="quantity">
                 <br/>
                 <input class="btn btn-primary" style="border-color: dimgray; background-color:dimgray; margin-top: 7px;" type="submit" name="saveType" value="Confirm Order"></input>
             </form>
