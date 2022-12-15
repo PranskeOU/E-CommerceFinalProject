@@ -62,7 +62,7 @@
             float: left;
             width: 15%;
             padding: 15px;
-            margin-top: 7px;
+            margin-top: 50px;
             text-align: center;
             margin-right: 50px;
         }
