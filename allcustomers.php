@@ -85,7 +85,7 @@
                         <div class="mb-3">
                           <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Customer Name</label>
                           <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="icust_name" value="<?=$row['CustomerName']?>">
-                          <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Athlete's Club</label>
+                          <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Customer Email</label>
                           <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="icust_email" value="<?=$row['CustomerEmail']?>">
                           <div id="editcustinfo<?=$row["CustomerID"]?>Help" class="form-text">Enter customer's information.</div>
                         </div>
