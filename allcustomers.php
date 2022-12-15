@@ -16,9 +16,9 @@
  case 'Edit':
       $sqlEdit = "update Customer set CustomerName=?, CustomerEmail=? where CustomerID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("ssi", $_POST['ibasketball_name'], $_POST['ibasketballclub'], $_POST['iid']);
+      $stmtEdit->bind_param("ssi", $_POST['icust_name'], $_POST['icust_email'], $_POST['iid']);
       $stmtEdit->execute();
-      echo '<div class="alert alert-success" role="alert">Athlete edited.</div>';
+      echo '<div class="alert alert-success" role="alert">Customer edited.</div>';
    break;
    case 'Delete':
         $sqlDelete = "Delete From Customer where CustomerID=?";
@@ -86,9 +86,9 @@
                       <form method="post" action="">
                         <div class="mb-3">
                           <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Customer Name</label>
-                          <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="ibasketball_name" value="<?=$row['CustomerName']?>">
+                          <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="icust_name" value="<?=$row['CustomerName']?>">
                           <label for="editcustinfo<?=$row["CustomerID"]?>Name" class="form-label">Athlete's Club</label>
-                          <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="ibasketballclub" value="<?=$row['CustomerEmail']?>">
+                          <input type="text" class="form-control" id="editcustinfo<?=$row["CustomerID"]?>Name" aria-describedby="editcustinfo<?=$row["CustomerID"]?>Help" name="icust_email" value="<?=$row['CustomerEmail']?>">
                           <div id="editcustinfo<?=$row["CustomerID"]?>Help" class="form-text">Enter customer's information.</div>
                         </div>
                         <input type="hidden" name="iid" value="<?=$row['CustomerID']?>">
