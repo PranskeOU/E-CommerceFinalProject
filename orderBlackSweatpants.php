@@ -88,7 +88,7 @@
                 $productID = 4;
                 $sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
                 $stmt = $conn->prepare($sql);
-                $stmt->bind_param("iiii", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
+                $stmt->bind_param("iiid", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
                 $stmt->execute();
                 echo '<div class="alert alert-success" role="alert">Message sent. Thank you for your feedback.</div>';
                 break;
