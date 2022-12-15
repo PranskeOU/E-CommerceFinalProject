@@ -104,7 +104,7 @@
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
                 <br/>
-                <input class="btn btn-primary" type="submit" name="saveType" value="Confirm Order"></input>
+                <input class="menu" type="submit" name="saveType" value="Confirm Order"></input>
             </form>
             <script>
                 function redirectMe() {
