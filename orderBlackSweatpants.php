@@ -31,7 +31,7 @@
 
         .menu {
             float: left;
-            width: 40%;
+            width: 25%;
             text-align: center;
             background: #415665;
             height: 75px;
