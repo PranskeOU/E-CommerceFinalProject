@@ -45,7 +45,22 @@
       </tr>
     </thead>
     <tbody>
-     
+     <tr>
+        <td>
+          <?= $row["CustomerID"] ?>
+        </td>
+        <td>
+          <?= $row["CustomerName"] ?>
+        </td>
+        <td>
+          <?= $row["CustomerEmail"] ?>
+        </td>
+        <td>
+          <?= $row["CustomerPhone"] ?>
+        </td>
+        <td>
+          <?= $row["CustomerAddress"] ?>
+        </td>
                  <td>
         <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#editcustinfo<?=$row["CustomerID"]?>">
                 Edit
