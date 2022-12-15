@@ -86,7 +86,10 @@
             case 'Confirm Order':
                 $totalPrice = 20 * $_POST['quantity'];
                 $productID = 4;
-                var_dump($POST['custID'], $_POST['quantity'], $productID, $totalPrice);
+                var_dump($_POST['custID'], 
+                $_POST['quantity'], 
+                $productID, 
+                $totalPrice);
                 //$sql = "insert into Order (ProductID, CustomerID, Quantity, TotalPrice) values (?,?,?,?)";
                 //$stmt = $conn->prepare($sql);
                 //$stmt->bind_param("iiid", $productID, $_POST['custID'], $_POST['quantity'], $totalPrice);
