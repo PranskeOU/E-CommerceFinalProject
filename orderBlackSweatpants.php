@@ -97,14 +97,22 @@
     <div style="overflow:auto">
 
         <div class="menu">
-            <form onsubmit="window.location.href = 'confirm.php'" action="" method="post">
+            <form onsubmit="return redirectMe();" action="" method="post">
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
                 <input class="btn btn-primary" type="submit" name="saveType" value="Confirm Order">Confirm
-                    Order</input>
+                Order</input>
             </form>
+            <script>
+                function redirectMe() {
+                    window.location.replace("confirm.php");
+                    return false;
+                }
+            </script>
+
+
         </div>
 
         <div class="main">
