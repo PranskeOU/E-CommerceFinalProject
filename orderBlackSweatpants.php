@@ -98,6 +98,7 @@
 
         <div class="menu">
             <form onsubmit="return redirectMe();" action="" method="post">
+                <label>Price: $20</label>
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
                 <br/>
@@ -120,11 +121,7 @@
             <h2 id="title">Black Sweatpants</h2>
             <img id="image"
                 src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603"
-                width="470" height="490">
-        </div>
-        <div class="right">
-            <h2>Price</h2>
-            <p id="price">$20</p>
+                width="auto" height="auto">
         </div>
     </div>
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright
