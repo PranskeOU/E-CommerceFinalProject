@@ -2,6 +2,9 @@
 <!doctype html>
 
 <html lang="en">
+      
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  switch ($_POST['saveType']) {
 <?php  case 'Edit':
       $sqlEdit = "update Customer set CustomerName=?, CustomerEmail=? where CustomerID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
