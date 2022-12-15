@@ -34,7 +34,7 @@
             width: 25%;
             text-align: center;
             background: #415665;
-            height: 200px;
+            height: 230px;
             margin-top: 7px;
             border-radius: 15px;
             padding: 20px;
