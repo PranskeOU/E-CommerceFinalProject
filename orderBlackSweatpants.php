@@ -7,7 +7,7 @@
     <style>
         img {
             display: flex;
-            margin-left: 20px;
+            margin-left: 10px;
             margin-right: auto;
         }
 
@@ -60,7 +60,7 @@
         .right {
             background-color: #e5e5e5;
             float: left;
-            width: 20%;
+            width: 15%;
             padding: 15px;
             margin-top: 7px;
             text-align: center;
