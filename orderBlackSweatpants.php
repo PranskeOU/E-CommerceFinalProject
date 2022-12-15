@@ -60,7 +60,7 @@
         .right {
             background-color: #e5e5e5;
             float: left;
-            width: 25%;
+            width: 20%;
             padding: 15px;
             margin-top: 7px;
             text-align: center;
