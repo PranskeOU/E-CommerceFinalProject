@@ -72,10 +72,10 @@
 </head>
 
 <body style="font-family: Verdana; color:#aaaaaa;">
-    <div
+   <!-- <div
         style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>MAN CLOTHES</h1>
-    </div>
+    </div> -->
     <div style="overflow:auto">
         <div class="menu">
 
