@@ -108,9 +108,7 @@
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
 
-            const randomNumber = createRandom5DigitNumber();
-            console.log(randomNumber);
-
+         
         </div>
     </div>
 
