@@ -72,43 +72,35 @@
 </head>
 
 <body style="font-family: Verdana; color:#aaaaaa;">
-
-    <script>
-    function createRandom5DigitNumber() {
-    const randomNumber = Math.random();
-    const result = Math.floor(randomNumber * 90000) + 10000;
-    return result;
-    }
-    </script>
-    
-   <div class="menu">
-         
-       <input onload=" const randomNumber = createRandom5DigitNumber();
-            console.log(randomNumber);" />
-            
-
-        
-    
-    
+   <!-- <div
+        style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
+        <h1>MAN CLOTHES</h1>
+    </div> -->
     <div style="overflow:auto">
         <div class="menu">
 
         </div>
 
-   
+        <script>
+            function showRandomNumber() {
+                document.getElementById("myNumber").innerHTML = rando(5, 10);
+            }
+        </script>
 
         <div class="main">
             <h2 id="title">Thank You For Your Order</h2>
-          <!--  <img id="image"
+            <img id="image"
                 src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603"
-                width="490" height="490"> -->
+                width="490" height="490">
         </div>
         <div class="right">
             <h2>Continue Shopping</h2>
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
 
-         
+            <p onload="showRandomNumber();"></p>
+            <div id="myNumber"></div>
+
         </div>
     </div>
 
