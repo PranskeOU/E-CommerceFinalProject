@@ -23,7 +23,7 @@
     <tbody>
       <?php
       require_once("connection.php");
-      $sql = "SELECT o.OrderID, c.CustomerName, p.ProductName, o.Quantity, o.TotalPrice from `Order` o JOIN Product p ON o.ProductID = p.ProductID JOIN Customer c on c.CustomerID = o.CustomerID";
+      $sql = "select o.*, ProductName, CustomerName from `Order` o join Product p on o.ProductID = p.ProductID join Customer c on o.CustomerID = c.CustomerID";
       $result = $conn->query($sql);
 
       if ($result->num_rows > 0) {
