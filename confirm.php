@@ -82,16 +82,10 @@
     </script>
     
    <div class="menu">
-            const randomNumber = createRandom5DigitNumber();
-            console.log(randomNumber);
-       
-            <script>
-                function redirectMe() {
-                    window.location.replace("confirm.php");
-                    return false;
-                }
-            </script>
-
+         
+       <input onload=" const randomNumber = createRandom5DigitNumber();
+            console.log(randomNumber);" />
+            
 
         </div> 
     
