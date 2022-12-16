@@ -101,6 +101,8 @@
             <h2>Continue Shopping</h2>
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
+            <p>                      </p>
+            <p> Order Confirmation Number </p>
             <div id="myNumber"></div>
             
 
