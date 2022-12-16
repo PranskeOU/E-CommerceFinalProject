@@ -99,15 +99,16 @@
         <div class="menu">
             <form onsubmit="return redirectMe();" action="" method="post">
                 <label><strong>Price: $20</strong></label>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
-                <br/>
+                <br />
                 <label for="quantity">Quantity:</label>
                 <input style="margin-bottom:5px;" type="text" id="quantity" name="quantity">
-                <br/>
-                <input class="btn btn-primary" style="border-color: dimgray; background-color:dimgray; margin-top: 7px;" type="submit" name="saveType" value="Confirm Order"></input>
+                <br />
+                <input class="btn btn-primary" style="border-color: dimgray; background-color:dimgray; margin-top: 7px;"
+                    type="submit" name="saveType" value="Confirm Order"></input>
             </form>
             <script>
                 function redirectMe() {

@@ -69,18 +69,18 @@
             }
         }
     </style>
-    
+
     <script src="https://randojs.com/1.0.0.js"></script>
     <script>
         function showRandomNumber() {
             document.getElementById("myNumber").innerHTML = rando(10000, 99999);
         }
     </script>
-    
+
 </head>
 
 <body style="font-family: Verdana; color:black;" onload="showRandomNumber();">
-   <!-- <div
+    <!-- <div
         style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>MAN CLOTHES</h1>
     </div> -->
@@ -89,11 +89,11 @@
 
         </div>
 
-        
+
 
         <div class="main">
             <h2 id="title">Thank You For Your Order</h2>
-           <!-- <img id="image"
+            <!-- <img id="image"
                 src="https://cdn.shopify.com/s/files/1/0089/7912/0206/products/LOTFEELPJ541_21_-MO_800x.jpg?v=1638346603"
                 width="490" height="490"> -->
         </div>
@@ -101,10 +101,10 @@
             <h2>Continue Shopping</h2>
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
-            <p>                      </p>
+            <p> </p>
             <p> Order Confirmation Number </p>
             <div id="myNumber"></div>
-            
+
 
         </div>
     </div>

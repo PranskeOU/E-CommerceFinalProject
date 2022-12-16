@@ -22,14 +22,14 @@
     </thead>
     <tbody>
       <?php
-   require_once("connection.php");
-   $sql = "SELECT o.OrderID, c.CustomerName, p.ProductName, o.Quantity, o.TotalPrice from `Order` o JOIN Product p ON o.ProductID = p.ProductID JOIN Customer c on c.CustomerID = o.CustomerID";
-   $result = $conn->query($sql);
+      require_once("connection.php");
+      $sql = "SELECT o.OrderID, c.CustomerName, p.ProductName, o.Quantity, o.TotalPrice from `Order` o JOIN Product p ON o.ProductID = p.ProductID JOIN Customer c on c.CustomerID = o.CustomerID";
+      $result = $conn->query($sql);
 
-   if ($result->num_rows > 0) {
-     // output data of each row
-     while ($row = $result->fetch_assoc()) {
-   ?>
+      if ($result->num_rows > 0) {
+        // output data of each row
+        while ($row = $result->fetch_assoc()) {
+      ?>
       <tr>
         <td>
           <?= $row["OrderID"] ?>
@@ -48,12 +48,12 @@
         </td>
       </tr>
       <?php
-     }
-   } else {
-     echo "0 results";
-   }
-   $conn->close();
-   ?>
+        }
+      } else {
+        echo "0 results";
+      }
+      $conn->close();
+      ?>
     </tbody>
   </table>
 

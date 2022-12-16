@@ -99,15 +99,16 @@
         <div class="menu">
             <form onsubmit="return redirectMe();" action="" method="post">
                 <label><strong>Price: $18</strong></label>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <label for="custID">Customer ID: </label>
                 <input type="text" id="custID" name="custID">
-                <br/>
+                <br />
                 <label for="quantity">Quantity:</label>
                 <input style="margin-bottom:5px;" type="text" id="quantity" name="quantity">
-                <br/>
-                <input class="btn btn-primary" style="border-color: dimgray; background-color:dimgray; margin-top: 7px;" type="submit" name="saveType" value="Confirm Order"></input>
+                <br />
+                <input class="btn btn-primary" style="border-color: dimgray; background-color:dimgray; margin-top: 7px;"
+                    type="submit" name="saveType" value="Confirm Order"></input>
             </form>
             <script>
                 function redirectMe() {
@@ -121,9 +122,7 @@
 
         <div class="main">
             <h2 id="title">Tan Sweatshirt</h2>
-            <img id="image"
-                src="https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg"
-                width="470" height="470">
+            <img id="image" src="https://freshblanks.com/media/2021/08/basic-tan-crewpull.jpg" width="470" height="470">
         </div>
     </div>
     <div style="background-color:#A78C59;text-align:center;padding:10px;margin-top:7px;">© copyright
