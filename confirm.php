@@ -69,9 +69,17 @@
             }
         }
     </style>
+    
+    <script src="https://randojs.com/1.0.0.js"></script>
+    <script>
+        function showRandomNumber() {
+            document.getElementById("myNumber").innerHTML = rando(10000, 99999);
+        }
+    </script>
+    
 </head>
 
-<body style="font-family: Verdana; color:#aaaaaa;">
+<body style="font-family: Verdana; color:#aaaaaa;" onload="showRandomNumber();">
    <!-- <div
         style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>MAN CLOTHES</h1>
@@ -81,11 +89,7 @@
 
         </div>
 
-        <script>
-            function showRandomNumber() {
-                document.getElementById("myNumber").innerHTML = rando(5, 10);
-            }
-        </script>
+        
 
         <div class="main">
             <h2 id="title">Thank You For Your Order</h2>
@@ -97,7 +101,7 @@
             <h2>Continue Shopping</h2>
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
-
+            <div id="myNumber"></div>
             
 
         </div>
