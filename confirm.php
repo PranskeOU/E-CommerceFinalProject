@@ -87,7 +87,7 @@
             console.log(randomNumber);" />
             
 
-        </div> 
+        
     
     
     <div style="overflow:auto">
@@ -108,8 +108,8 @@
 
             <a class="btn btn-primary" href="index.php" role="button">To Store</a>
 
-            <p onload="showRandomNumber();"></p>
-            <div id="myNumber"></div>
+            const randomNumber = createRandom5DigitNumber();
+            console.log(randomNumber);
 
         </div>
     </div>
