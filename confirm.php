@@ -79,7 +79,7 @@
     
 </head>
 
-<body style="font-family: Verdana; color:#aaaaaa;" onload="showRandomNumber();">
+<body style="font-family: Verdana; color:black;" onload="showRandomNumber();">
    <!-- <div
         style="font-family:Stencil Std, fantasy; font-weight:bold; letter-spacing: .2rem; background-color:#e5e5e5;padding:15px;text-align:center;color: black;">
         <h1>MAN CLOTHES</h1>
