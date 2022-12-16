@@ -21,23 +21,28 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="confirm.php">Order Confirmation</a>
+                <a class="nav-link active" aria-current="page" href="products.php">Our Products</a>
               </li>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="allorders.php">Past Orders</a>
+                    <a class="nav-link active" aria-current="page" href="confirm.php">Order Confirmation</a>
                   </li>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="password.php">All Customers</a>
+                        <a class="nav-link active" aria-current="page" href="allorders.php">Past Orders</a>
                       </li>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
+                            <a class="nav-link active" aria-current="page" href="password.php">All Customers</a>
                           </li>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
+                              </li>
   </nav>
   </div>
   </div>
@@ -52,4 +57,3 @@
 </head>
 
 </html>
-  
